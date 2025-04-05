@@ -21,7 +21,7 @@ variable "subscription_id" {
 variable "resource_group_name" {
   description = "Name of the resource group"
   type        = string
-  default     = "jenkins-deepank-rg"
+  default     = "jenkins-deepank-rg123"
 }
 
 variable "location" {
@@ -39,5 +39,5 @@ variable "app_service_plan_name" {
 variable "app_service_name" {
   description = "App Service (Web App) name"
   type        = string
-  default     = "jenkins-deepank-app123"
+  default     = "jenkins-deepank-app123456"
 }
