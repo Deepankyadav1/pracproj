@@ -3,10 +3,10 @@ pipeline {
     agent any
 
     environment {
-        ARM_CLIENT_ID       = credentials('AZURE_CLIENT_ID')
-        ARM_CLIENT_SECRET   = credentials('AZURE_CLIENT_SECRET')
-        ARM_SUBSCRIPTION_ID = credentials('AZURE_SUBSCRIPTION_ID')
-        ARM_TENANT_ID       = credentials('AZURE_TENANT_ID')
+        ARM_CLIENT_ID       = credentials('AZURE_CLIENT_ID1')
+        ARM_CLIENT_SECRET   = credentials('AZURE_CLIENT_SECRET1')
+        ARM_SUBSCRIPTION_ID = credentials('AZURE_SUBSCRIPTION_ID1')
+        ARM_TENANT_ID       = credentials('AZURE_TENANT_ID1')
     }
 
     stages {
